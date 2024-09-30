@@ -99,7 +99,7 @@ input:focus {
     font-weight: bold;
 }
 
-@media (min-width: 576px){
+@media (min-width: 700px){
     body{
         display: flex;
         flex-direction: row;
