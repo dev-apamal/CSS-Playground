@@ -77,13 +77,13 @@ footer{
     gap: 0.5rem;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    padding: 1.5rem;
     color: white;
     background-color: #202020;
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
 }
 
 .footer-text{
