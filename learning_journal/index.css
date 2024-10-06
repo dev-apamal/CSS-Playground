@@ -48,14 +48,21 @@ h1, h2, h3, h4, h5, h6, p{
 
 .hero h2{
     font-size: 2rem;
-    margin-bottom: 0.5rem;
+    line-height: 1.25;
 }
 
 .hero p{
     font-size: 1rem;
+    line-height: 1.50;
+}
+
+.hero small{
+    line-height: 1.50;
+    font-weight: 200;
 }
 
 .hero p, .hero h2, .hero small{
-    max-width: 640px; 
+    max-width: 640px;
+    margin-bottom: 0.5rem; 
 }
 
