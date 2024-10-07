@@ -12,6 +12,13 @@ h1, h2, h3, h4, h5, h6, p{
     margin: 0;
 }
 
+a{
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 /* Classes */
 
 /* Header Navigation */
@@ -69,21 +76,52 @@ h1, h2, h3, h4, h5, h6, p{
     margin-bottom: 0.5rem; 
 }
 
-/* Footer */
-footer{
-    border: 1px solid black;
+/* Main */
+.blog{
+    display: grid;
+    grid-template-areas: 
+        "one"
+        "two"
+        "three" ;
+}
+
+.one{
+    grid-area: one;
+}
+
+.two{
+    grid-area: two;
+}
+
+.three{
+    grid-area: three;
+}
+
+.blog-item{
+    text-decoration: none;
+    padding: 1.5rem;
+    color: black;
     display: flex;
     flex-direction: column;
+}
+
+.blog-item img{
+    margin-bottom: 1rem;
+    border-radius: none;
+}
+
+.blog-item small, .blog-item h2, .blog-item p{
+    margin-bottom: 0.25rem;
+}
+
+/* Footer */
+footer{
+    display: block;
     gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     padding: 1.5rem;
     color: white;
     background-color: #202020;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100vw;
 }
 
 .footer-text{
