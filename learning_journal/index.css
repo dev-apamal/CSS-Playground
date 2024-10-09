@@ -97,7 +97,6 @@ footer{
 }
 
 .hero p, .hero h2, .hero small{
-    max-width: 640px;
     margin-bottom: 0.5rem; 
 }
 
@@ -146,15 +145,13 @@ footer{
 .hero-post{
     padding: 5rem 1.5rem 1.5rem 1.5rem;
     color: black;
-    max-width: 640px;
 }
 
-.hero-post p, .hero-post img{
+.hero-post p {
     margin-bottom: 1.5rem;
 }
 
 .hero-post small, .hero-post h2 {
-    max-width: 640px;
     margin-bottom: 0.5rem; 
 }
 
@@ -165,6 +162,7 @@ footer{
 
 .hero-post img{
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 .hero-post h2 {
@@ -180,8 +178,8 @@ footer{
 /* body-post */
 .body-post{
     padding: 1rem 1.5rem 1.5rem 1.5rem;
-    max-width: 640px;
 }
+
 .body-post h4, .body-post p{
     margin-bottom: 1rem;
     line-height: 1.50;
