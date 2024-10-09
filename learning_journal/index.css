@@ -3,7 +3,9 @@ body{
     margin: 0;
 }
 
-/* Default Elements */
+/* -------------------------------------- */
+
+/* Root Elements */
 header{
     padding: 1rem 2.5rem;
 }
@@ -24,8 +26,9 @@ header a,main a {
     margin-bottom: 2rem;
 }
 
-/* Classes */
+/* -------------------------------------- */
 
+/* Components */
 /* Header Navigation */
 .navbar{
     display: flex;
@@ -51,6 +54,23 @@ header a,main a {
     width: fit-content;
 }
 
+/* Footer */
+footer{
+    display: block;
+    gap: 0.5rem;
+    text-align: center;
+    padding: 1.5rem;
+    color: white;
+    background-color: #202020;
+}
+
+.footer-text{
+    font-weight: bold;
+}
+
+/* -------------------------------------- */
+
+/* Index Page */
 /* Hero Section */
 .hero{
     /* height: 15rem; */
@@ -81,7 +101,7 @@ header a,main a {
     margin-bottom: 0.5rem; 
 }
 
-/* Main */
+/* Blog Item - Grid */
 .blog{
     display: grid;
     grid-template-areas: 
@@ -119,19 +139,69 @@ header a,main a {
     margin-bottom: 0.25rem;
 }
 
-/* Footer */
-footer{
-    display: block;
-    gap: 0.5rem;
-    text-align: center;
-    padding: 1.5rem;
-    color: white;
-    background-color: #202020;
+/* -------------------------------------- */
+
+/* Post Page */
+/* hero-post */
+.hero-post{
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    color: black;
+    max-width: 640px;
 }
 
-.footer-text{
-    font-weight: bold;
+.hero-post p, .hero-post img{
+    margin-bottom: 1.5rem;
 }
+
+.hero-post small, .hero-post h2 {
+    max-width: 640px;
+    margin-bottom: 0.5rem; 
+}
+
+.hero-post small {
+    line-height: 1.50;
+    font-weight: 200;
+}
+
+.hero-post img{
+    width: 100%;
+}
+
+.hero-post h2 {
+    font-size: 2rem;
+    line-height: 1.25;
+}
+
+.hero-post p {
+    font-size: 1rem;
+    line-height: 1.50;
+}
+
+/* body-post */
+.body-post{
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+    max-width: 640px;
+}
+.body-post h4, .body-post p{
+    margin-bottom: 1rem;
+    line-height: 1.50;
+}
+
+/* recent-posts */
+.recent-posts-paragraph{
+    margin-bottom: 1rem;
+    line-height: 1.50;
+    font-weight: 600;
+    text-align: center;
+}
+
+.recent-posts .three{
+    margin-bottom: 2rem;
+}
+
+/* -------------------------------------- */
+
+
 
 
 
